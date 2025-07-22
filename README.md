@@ -9,6 +9,8 @@ A study into Delaunay Triangulation and Voronoi Diagrams with MaxMSPJitter and v
 
 # 🔎 About
 
+![](./media/screenshot.png)
+
 This repository contains 3 patches, all various studies on the subject of delaunay triangulation and voronoi diagrams. The Delaunay Triangulation subdivides a set of points into triangles, in such a way that the circumcircles of those triangles don't contain any other points. When connecting the centers of the circumcircles of the Delaunay triangles, you get the Voronoi Diagram. Next the voronoi diagram can be used as a starting point to apply Lloyd's Algorithm, also called Voronoi Relaxation. This will slowly give all the cells an even amount of space and "relax" the surface subdivision.
 
 I was initially inspired by the Coding Train tutorial about Weighted Voronoi Stippling. Since I'm a Max user I was interested to see if this was doable to recreate in Jitter. I used the new `[v8]` javascript engine in Max9, which is many times faster than the previous `[js]` object. I also made use of the faster typed-arrays `Float32Array` to work with matrices within v8, instead of working directly on the matrix. For the calculations of the Triangulation and the Voronoi I use the [d3-delaunay](https://www.npmjs.com/package/d3-delaunay) node package, but it's not used within `[node.script]`, instead it is included in [v8] via `require()`. 
