@@ -1,0 +1,23 @@
+{
+  "name": "voronoi-triangulation",
+  "version": "1.0.0",
+  "description": "A study into Delaunay Triangulation and Voronoi Diagrams with MaxMSPJitter and v8js engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmhglnd/voronoi-triangulation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmhglnd/voronoi-triangulation/issues"
+  },
+  "homepage": "https://github.com/tmhglnd/voronoi-triangulation#readme",
+  "dependencies": {
+    "d3-delaunay": "^6.0.4"
+  }
+}
