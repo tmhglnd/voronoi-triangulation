@@ -2,12 +2,10 @@
 
 #### 📟 [See more visuals and code!](http://gumroad.com/tmhglnd)
 
-#### 🙏 [Support me on Patreon!](https://www.patreon.com/bePatron?u=9649817)
-
 [![](https://img.shields.io/static/v1?label=Support%20on%20Ko-Fi&message=%E2%9D%A4&logo=Kofi)](https://ko-fi.com/I2I3SV7FX)
 [![](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=%E2%9D%A4&logo=Patreon)](https://www.patreon.com/bePatron?u=9649817)
 
-A study into Delaunay Triangulation and Voronoi Diagrams with MaxMSPJitter and v8js engine
+A study into Delaunay Triangulation and Voronoi Diagrams with MaxMSPJitter and v8js engine.
 
 # 🔎 About
 
